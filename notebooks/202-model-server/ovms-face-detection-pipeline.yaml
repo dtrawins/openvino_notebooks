@@ -7,6 +7,7 @@ spec:
   aws_access_key_id: "minio"
   aws_region: "us-east-1"
   aws_secret_access_key: "minio123"
+  s3_compat_api_endpoint: 'http://minio-service:9000'
   config_configmap_name: 'ovms-face-detection-pipeline'
   grpc_port: 8080
   image_name: >-
